@@ -1,0 +1,23 @@
+{
+  "name": "french-toast-haustier",
+  "version": "1.0.0",
+  "description": "neocities site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"nothing to build\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/french-toast-64/french-toast-haustier.git"
+  },
+  "keywords": [
+    "neocities"
+  ],
+  "author": "french toast",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/french-toast-64/french-toast-haustier/issues"
+  },
+  "homepage": "https://github.com/french-toast-64/french-toast-haustier#readme"
+}
