@@ -19,3 +19,39 @@
   #column1 {
     margin-left: 5rem;
   }
+
+  #buttons1 {
+    gap: 1.25rem;
+    flex-direction: column;
+  }
+
+  #buttons1 li a {
+    width: 13.75rem;
+    display: inline-flex;
+    padding: 0 1rem;
+    vertical-align: middle;
+    border-radius: .625rem;
+    flex-direction: row;
+    justify-content: flex-start;
+    transition: transform 0.875s ease, color 0.875s ease, background-color 0.875s ease, border-color 0.875s ease;
+  }
+
+  #buttons1 li a:hover {
+    transform: scale(1.13);
+}
+
+  #buttons1 li a .label {
+    text-align: left;
+    width: 100%
+  }
+
+  #buttons1 li a svg {
+    display: block;
+    width: 1.25em;
+  }
+
+  .buttons {
+    display: flex;
+    list-style: none;
+    cursor: default;
+  }
