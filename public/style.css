@@ -7,3 +7,15 @@
     color: black;
     font-family: Verdana;
   }
+
+  #main {
+    --alignment: center;
+    --flex-alignment: center;
+    display: flex;
+    text-align: center;
+    z-index: 1;
+  }
+
+  #column1 {
+    margin-left: 5rem;
+  }
